@@ -1,0 +1,1 @@
+exec sp_Blitz @CheckUserDatabaseObjects = 0, @checkServerInfo =1;

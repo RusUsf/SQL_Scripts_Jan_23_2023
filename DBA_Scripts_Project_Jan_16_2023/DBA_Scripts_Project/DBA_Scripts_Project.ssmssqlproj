@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBA_Scripts_Project">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-75DJTGQ\DBATOOLS_2017:DESKTOP-75DJTGQ\User">
+          <Created>2023-01-16T12:23:24.3357199-05:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-75DJTGQ\DBATOOLS_2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433:rdubas">
+          <Created>2022-10-26T15:30:00.737023-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433</Server>
+          <UserName>rdubas</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>db_securer_securert</InitialDB>
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ec2-34-224-55-204.compute-1.amazonaws.com\\MSSQLSERVER,1433:securer_securert">
+          <Created>2022-11-14T17:15:30.9460863-05:00</Created>
+          <Type>SQL</Type>
+          <Server>ec2-34-224-55-204.compute-1.amazonaws.com\\MSSQLSERVER,1433</Server>
+          <UserName>securer_securert</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>securer_securert_beta</InitialDB>
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:rdubas">
+          <Created>2022-10-31T17:00:00.7374069-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</Server>
+          <UserName>rdubas</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>OnMedDBNew</InitialDB>
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:securer_securert">
+          <Created>2022-11-01T16:05:20.3906959-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</Server>
+          <UserName>securer_securert</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>OnMedDBNew</InitialDB>
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ONMED_RUS\SQL2017:DESKTOP-75DJTGQ\User">
+          <Created>2022-10-25T15:49:42.9732698-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ONMED_RUS\SQL2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AgentJobStepHistory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AgentJobStepHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="All_Col_and_ROW_Counts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>All_Col_and_ROW_Counts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="All_Columns_w_NULL_values.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>All_Columns_w_NULL_values.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup_&amp;_Restore_Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>Backup_&amp;_Restore_Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup_File_Names_DATE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>Backup_File_Names_DATE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BACKUP_FILES_PATHS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>BACKUP_FILES_PATHS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup_Script.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backup_Script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BackupHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>BackupHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BackupSample_Practice.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>BackupSample_Practice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Brent_Ozar_EXEC_sp_Blitz.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>Brent_Ozar_EXEC_sp_Blitz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Brent_Ozar_sp_Blitz.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>Brent_Ozar_sp_Blitz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ConstraintType.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ConstraintType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Copy_DB_TSQL_Script.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Copy_DB_TSQL_Script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_DROP_ALL_FK_CONSTRAINTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_DROP_ALL_FK_CONSTRAINTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataDictionary_ExProperties.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DataDictionary_ExProperties.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataDictionary_I_ForeignKeys.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DataDictionary_I_ForeignKeys.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DB Inventory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-196-41-114.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>DB Inventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Default_Data_&amp;_Log_Paths.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Default_Data_&amp;_Log_Paths.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Diagnostic_Queries_T-LOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-224-55-204.compute-1.amazonaws.com\\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-224-55-204.compute-1.amazonaws.com\\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>Diagnostic_Queries_T-LOG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DROP_ALL_FK_CONSTRAINTS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DROP_ALL_FK_CONSTRAINTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop_Constraint_SELECT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Drop_Constraint_SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop_Constraints_&amp;_Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Drop_Constraints_&amp;_Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop_Create_FK_Constraints.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Drop_Create_FK_Constraints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Dropping_Login.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Dropping_Login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Encryption_Backups_Rus.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Encryption_Backups_Rus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Error_LOG_Review.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Error_LOG_Review.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FK_CREATE_DROP_ALL_FK_CONSTRAINTS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FK_CREATE_DROP_ALL_FK_CONSTRAINTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Foreign_Keys_Index_Review.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>Foreign_Keys_Index_Review.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Glen_Berry_Diagnostic_Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>Glen_Berry_Diagnostic_Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Last_Executed_Query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Last_Executed_Query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LogShippingServersJobHistory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LogShippingServersJobHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Master_DB_CLEANUP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75DJTGQ\DBATOOLS_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-75DJTGQ\DBATOOLS_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Master_DB_CLEANUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ola_Hallengren_BackupDatabase_SP_w_Encryption.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ola_Hallengren_BackupDatabase_SP_w_Encryption.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ola_Hallengren_MaintenanceSolution.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Ola_Hallengren_MaintenanceSolution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="On_Cascade_DELETE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>On_Cascade_DELETE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REQUIRED_Columns_LOOKUP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>REQUIRED_Columns_LOOKUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Restore_Last_Date_Time.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Restore_Last_Date_Time.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Roles_&amp;_Principals.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Roles_&amp;_Principals.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Select_Top_Records_from_each_Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75DJTGQ\DBATOOLS_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-75DJTGQ\DBATOOLS_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Select_Top_Records_from_each_Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Size_of_Databases_SIZE_MB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Size_of_Databases_SIZE_MB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_WHO2_Filtered.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:securer_securert</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>securer_securert</AssociatedConnUserName>
+          <FullPath>SP_WHO2_Filtered.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL SERVER INFO FULL SCRIPT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL SERVER INFO FULL SCRIPT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL_Table_to_C#_Class.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL_Table_to_C#_Class.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tim_Radney_Backup_Last_FULL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433:False:rdubas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ec2-34-226-81-225.compute-1.amazonaws.com\MSSQLSERVER,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>rdubas</AssociatedConnUserName>
+          <FullPath>Tim_Radney_Backup_Last_FULL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tim_Radney_Encrypting_Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tim_Radney_Encrypting_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tim_Radney_Restore_Script.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tim_Radney_Restore_Script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="USER_Management.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ONMED_RUS\SQL2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ONMED_RUS\SQL2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>USER_Management.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

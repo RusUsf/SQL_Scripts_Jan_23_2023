@@ -1,0 +1,1 @@
+select Database_name, table_name,column_name,data_type,foreign_key_to,notes from DataDictionary_I
