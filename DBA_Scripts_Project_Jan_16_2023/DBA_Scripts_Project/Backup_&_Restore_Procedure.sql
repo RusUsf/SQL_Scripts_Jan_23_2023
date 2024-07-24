@@ -25,5 +25,12 @@ backup database OnMedDBnew_1000 to disk = 'C:\Program Files\Microsoft SQL Server
 --Step 4: Restore Database
 restore database OnMedDBNew_1000 from disk = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SQL2017\MSSQL\Backup\OnMedDBNew_1000_Sep_20_2022_3_00PM.bak' with replace
 
+--Step 5: Restore Database 'WITH MOVE' option
+RESTORE DATABASE Florida_Flippers
+FROM DISK = 'D:\Database_Backups\Florida_Flippers\Florida_Flippers.bak'
+WITH 
+   MOVE 'Florida_Flippers' TO 'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\Florida_Flippers.mdf',
+   MOVE 'Florida_Flippers_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\Florida_Flippers_log.ldf',
+   REPLACE,RECOVERY;
 
 
